@@ -1,22 +1,22 @@
 module.exports = {
-  plugins: "@typescript-eslint",
+  plugins: '@typescript-eslint',
   extends: [
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint"
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint'
   ],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: "./tsconfig.json"
+    project: './tsconfig.json'
   },
   rules: {
-    "@typescript-eslint/camelcase": 0,
-    "@typescript-eslint/no-use-before-define": 1
+    '@typescript-eslint/camelcase': 0,
+    '@typescript-eslint/no-use-before-define': 1
   },
   overrides: [
     {
-      files: ["*.js"],
+      files: ['*.js'],
       rules: {
-        "require-jsdoc": 0
+        'require-jsdoc': 0
       }
     }
   ]

@@ -6,8 +6,13 @@
   "repository": "git@github.com:xeroxinteractive/eslint-config-xerox.git",
   "author": "Andrew Leedham <AndrewLeedham@Outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "eslint . --fix"
+  },
   "devDependencies": {
-    "eslint": "^5.15.0"
+    "eslint": "^5.15.0",
+    "prettier": "^1.16.4",
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.4.2",
@@ -20,6 +25,7 @@
     "eslint-plugin-react": "^7.12.4"
   },
   "peerDependencies": {
-    "eslint": ">=5.15.0"
+    "eslint": ">=5",
+    "prettier": ">=1"
   }
 }
