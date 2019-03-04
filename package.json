@@ -20,6 +20,17 @@
       "commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
     }
   },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true,
+    "arrowParens": "always",
+    "endOfLine": "lf"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./index.js"
+    ]
+  },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
