@@ -39,5 +39,13 @@ module.exports = {
         customTags: ['remarks']
       }
     }
-  }
+  },
+  overrides: [
+    {
+      files: ['*.test.{js,ts}'],
+      rules: {
+        'require-jsdoc': 0
+      }
+    }
+  ]
 };
