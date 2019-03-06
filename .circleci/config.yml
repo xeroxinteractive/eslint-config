@@ -17,6 +17,7 @@ jobs:
       - run: yarn audit
       - run: yarn lint
       - save_cache:
+          key: node-10-cache-{{ checksum "./yarn.lock" }}
           paths:
             - ~/.yarn-cache
             - ./node_modules
