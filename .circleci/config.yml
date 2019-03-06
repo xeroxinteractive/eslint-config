@@ -3,7 +3,8 @@ version: 2
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: circleci/node:10
+    - image: circleci/node:10.14.1
+  resource_class: small
 
 jobs:
   install_lint:
@@ -36,7 +37,11 @@ jobs:
       - run:
           name: Configure git
           command: |
-            ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+            if [ ! -f ~/.ssh/known_hosts ]; then
+              ssh-keyscan -H github.com > ~/.ssh/known_hosts
+            else
+              ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+            fi
 
             git config --global user.email "xeroxinteractive-circleci@xerox.com"
             git config --global user.name "CircleCI"
