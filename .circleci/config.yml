@@ -37,7 +37,8 @@ jobs:
       - run:
           name: Configure git
           command: |
-            ssh-keyscan -H github.com > ~/.ssh/known_hosts
+            touch ~/.ssh/known_hosts
+            ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
             git config --global user.email "xeroxinteractive-circleci@xerox.com"
             git config --global user.name "CircleCI"
