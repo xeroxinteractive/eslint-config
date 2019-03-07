@@ -37,11 +37,7 @@ jobs:
       - run:
           name: Configure git
           command: |
-            if [ ! -f ~/.ssh/known_hosts ]; then
-              ssh-keyscan -H github.com > ~/.ssh/known_hosts
-            else
-              ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-            fi
+            ssh-keyscan -H github.com > ~/.ssh/known_hosts
 
             git config --global user.email "xeroxinteractive-circleci@xerox.com"
             git config --global user.name "CircleCI"
