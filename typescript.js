@@ -58,7 +58,8 @@ module.exports = {
     {
       files: ['*.test.{js,ts}'],
       rules: {
-        'require-jsdoc': 0
+        'require-jsdoc': 0,
+        '@typescript-eslint/no-explicit-any': 0
       }
     }
   ],
