@@ -9,34 +9,34 @@ module.exports = {
     project: './tsconfig.json'
   },
   rules: {
-    '@typescript-eslint/camelcase': 0,
+    '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-use-before-define': [
-      1,
+      'warn',
       {
         functions: false
       }
     ],
-    'jsdoc/check-examples': 1,
-    'jsdoc/check-param-names': 2,
-    'jsdoc/check-tag-names': 2,
-    'jsdoc/check-types': 1,
-    'jsdoc/newline-after-description': 2,
-    'jsdoc/no-undefined-types': 0,
-    'jsdoc/require-description': 0,
-    'jsdoc/require-description-complete-sentence': 2,
-    'jsdoc/require-example': 0,
-    'jsdoc/require-hyphen-before-param-description': 2,
-    'jsdoc/require-param': 2,
-    'jsdoc/require-param-description': 2,
-    'jsdoc/require-param-name': 2,
-    'jsdoc/require-param-type': 0,
-    'jsdoc/require-returns': 2,
-    'jsdoc/require-returns-check': 2,
-    'jsdoc/require-returns-description': 2,
-    'jsdoc/require-returns-type': 0,
-    'jsdoc/valid-types': 0,
+    'jsdoc/check-examples': 'warn',
+    'jsdoc/check-param-names': 'error',
+    'jsdoc/check-tag-names': 'error',
+    'jsdoc/check-types': 'warn',
+    'jsdoc/newline-after-description': 'error',
+    'jsdoc/no-undefined-types': 'off',
+    'jsdoc/require-description': 'off',
+    'jsdoc/require-description-complete-sentence': 'error',
+    'jsdoc/require-example': 'off',
+    'jsdoc/require-hyphen-before-param-description': 'error',
+    'jsdoc/require-param': 'error',
+    'jsdoc/require-param-description': 'error',
+    'jsdoc/require-param-name': 'error',
+    'jsdoc/require-param-type': 'off',
+    'jsdoc/require-returns': 'error',
+    'jsdoc/require-returns-check': 'error',
+    'jsdoc/require-returns-description': 'error',
+    'jsdoc/require-returns-type': 'off',
+    'jsdoc/valid-types': 'off',
     'require-jsdoc': [
-      2,
+      'error',
       {
         require: {
           FunctionDeclaration: true,
@@ -52,14 +52,14 @@ module.exports = {
     {
       files: ['*.js'],
       rules: {
-        'require-jsdoc': 0
+        'require-jsdoc': 'off'
       }
     },
     {
       files: ['*.test.{js,ts}'],
       rules: {
-        'require-jsdoc': 0,
-        '@typescript-eslint/no-explicit-any': 0
+        'require-jsdoc': 'off',
+        '@typescript-eslint/no-explicit-any': 'off'
       }
     }
   ],
