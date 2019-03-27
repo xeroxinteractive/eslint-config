@@ -1,5 +1,9 @@
 # eslint-config-xerox
-[![npm package](https://img.shields.io/npm/v/eslint-config-xerox.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-xerox) [![license MIT](https://img.shields.io/npm/l/eslint-config-xerox.svg?style=flat-square)](./LICENSE) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release) [![commit style angular](https://img.shields.io/static/v1.svg?label=commit%20style&message=angular&color=blueviolet&style=flat-square)](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)
+[![circleci status][circleci-badge]][circleci-link]
+[![npm package][npm-badge]][npm-link]
+[![license MIT][license-badge]][license-link]
+[![commit style angular][commit-style-badge]][commit-style-link]
+[![semantic-release][semantic-release-badge]][semantic-release-link]
 
 ESLint shareable configuration for Xerox projects.
 
@@ -31,3 +35,18 @@ The react eslint configuration i.e. `"extends": ["xerox/react"]` enables jsx and
 
 # LICENSE
 [MIT](./LICENSE)
+
+[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/eslint-config-xerox
+[circleci-link]: https://circleci.com/gh/xeroxinteractive/eslint-config-xerox/tree/master
+
+[npm-badge]: https://flat.badgen.net/npm/v/eslint-config-xerox?color=cyan
+[npm-link]: https://www.npmjs.com/package/eslint-config-xerox
+
+[license-badge]: https://flat.badgen.net/npm/license/eslint-config-xerox
+[license-link]: ./LICENSE
+
+[commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/purple
+[commit-style-link]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
+
+[semantic-release-badge]: https://flat.badgen.net/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80/semantic%20release/e10079
+[semantic-release-link]: https://github.com/semantic-release/semantic-release
