@@ -77,5 +77,8 @@
   "peerDependencies": {
     "eslint": "5.12.1",
     "prettier": ">=1"
+  },
+  "resolutions": {
+    "js-yaml": "^3.13.0"
   }
 }
