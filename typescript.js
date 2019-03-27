@@ -16,6 +16,12 @@ module.exports = {
         functions: false
       }
     ],
+    '@typescript-eslint/no-empty-interface': [
+      'error',
+      {
+        allowSingleExtends: true
+      }
+    ],
     'jsdoc/check-examples': 'warn',
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-tag-names': 'error',
