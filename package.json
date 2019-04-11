@@ -65,12 +65,12 @@
     "semantic-release": "^15.13.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.4.2",
-    "@typescript-eslint/parser": "^1.4.2",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-jest": "^22.3.1",
-    "eslint-plugin-jsdoc": "^4.1.1",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-jsdoc": "^4.8.3",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4"
   },
@@ -79,6 +79,7 @@
     "prettier": ">=1"
   },
   "resolutions": {
-    "js-yaml": "^3.13.0"
+    "tar": "^4.4.2",
+    "marked": "^0.6.2"
   }
 }

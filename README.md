@@ -33,8 +33,12 @@ The typescript eslint configuration i.e. `"extends": ["xerox/typescript"]` inclu
 ### xerox/react
 The react eslint configuration i.e. `"extends": ["xerox/react"]` enables jsx and includes the react reccomended settings from eslint-plugin-react, this sub-config needs some fleshing out.
 
-# LICENSE
-[MIT](./LICENSE)
+---
+[LICENSE][license-link] | [CHANGELOG][changelog-link] | [ISSUES][issues-link]
+
+[license-link]: ./LICENSE
+[changelog-link]: ./CHANGELOG.md
+[issues-link]: https://github.com/xeroxinteractive/eslint-config-xerox
 
 [circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/eslint-config-xerox
 [circleci-link]: https://circleci.com/gh/xeroxinteractive/eslint-config-xerox/tree/master
@@ -43,7 +47,6 @@ The react eslint configuration i.e. `"extends": ["xerox/react"]` enables jsx and
 [npm-link]: https://www.npmjs.com/package/eslint-config-xerox
 
 [license-badge]: https://flat.badgen.net/npm/license/eslint-config-xerox
-[license-link]: ./LICENSE
 
 [commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/purple
 [commit-style-link]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines

@@ -22,6 +22,12 @@ module.exports = {
         allowSingleExtends: true
       }
     ],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        ignoreRestSiblings: true
+      }
+    ],
     'jsdoc/check-examples': 'warn',
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-tag-names': 'error',
