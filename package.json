@@ -80,6 +80,8 @@
   },
   "resolutions": {
     "tar": "^4.4.2",
-    "marked": "^0.6.2"
+    "marked": "^0.6.2",
+    "handlebars": ">=4.1.2",
+    "js-yaml": ">=3.13.1"
   }
 }
