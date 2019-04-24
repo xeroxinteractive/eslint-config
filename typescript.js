@@ -68,10 +68,11 @@ module.exports = {
       }
     },
     {
-      files: ['*.test.{js,ts}'],
+      files: ['*.test.{tsx,ts}'],
       rules: {
         'require-jsdoc': 'off',
-        '@typescript-eslint/no-explicit-any': 'off'
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'off'
       }
     }
   ],

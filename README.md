@@ -40,7 +40,7 @@ The react eslint configuration i.e. `"extends": ["xerox/react"]` enables jsx and
 [changelog-link]: ./CHANGELOG.md
 [issues-link]: https://github.com/xeroxinteractive/eslint-config-xerox
 
-[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/eslint-config-xerox
+[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/eslint-config-xerox/master
 [circleci-link]: https://circleci.com/gh/xeroxinteractive/eslint-config-xerox/tree/master
 
 [npm-badge]: https://flat.badgen.net/npm/v/eslint-config-xerox?color=cyan
