@@ -1,11 +1,12 @@
 # eslint-config-xerox
+
+> ESLint shareable configuration for Xerox projects.
+
 [![circleci status][circleci-badge]][circleci-link]
 [![npm package][npm-badge]][npm-link]
 [![license MIT][license-badge]][license-link]
 [![commit style angular][commit-style-badge]][commit-style-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
-
-ESLint shareable configuration for Xerox projects.
 
 ## Usage
 1. Install this config and eslint as a `devDependency`:
