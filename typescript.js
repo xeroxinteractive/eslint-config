@@ -47,7 +47,7 @@ module.exports = {
     'jsdoc/require-returns-description': 'error',
     'jsdoc/require-returns-type': 'off',
     'jsdoc/valid-types': 'off',
-    'require-jsdoc': [
+    'jsdoc/require-jsdoc': [
       'error',
       {
         require: {
@@ -64,13 +64,13 @@ module.exports = {
     {
       files: ['*.js'],
       rules: {
-        'require-jsdoc': 'off'
+        'jsdoc/require-jsdoc': 'off'
       }
     },
     {
-      files: ['*.test.{tsx,ts}'],
+      files: ['*.test.{tsx,ts}', '**/__mocks__/**/*.{tsx,ts}'],
       rules: {
-        'require-jsdoc': 'off',
+        'jsdoc/require-jsdoc': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off'
       }
