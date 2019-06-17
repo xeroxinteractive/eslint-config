@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/xeroxinteractive/eslint-config-xerox/compare/v1.4.1...v1.4.2) (2019-06-17)
+
+
+### Bug Fixes
+
+* typescript version support ([55e7e51](https://github.com/xeroxinteractive/eslint-config-xerox/commit/55e7e51))
+
 ## [1.4.1](https://github.com/xeroxinteractive/eslint-config-xerox/compare/v1.4.0...v1.4.1) (2019-06-17)
 
 
