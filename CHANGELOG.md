@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/xeroxinteractive/eslint-config-xerox/compare/v1.4.0...v1.4.1) (2019-06-17)
+
+
+### Bug Fixes
+
+* eslint require-returns async rule ([929f825](https://github.com/xeroxinteractive/eslint-config-xerox/commit/929f825))
+
 # [1.4.0](https://github.com/xeroxinteractive/eslint-config-xerox/compare/v1.3.1...v1.4.0) (2019-06-10)
 
 
