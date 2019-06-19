@@ -33,36 +33,16 @@
     ]
   },
   "release": {
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "releaseRules": [
-            {
-              "type": "refactor",
-              "release": "patch"
-            }
-          ]
-        }
-      ],
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ]
+    "extends": "semantic-release-config-xerox/npm"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@semantic-release/changelog": "^3.0.2",
-    "@semantic-release/commit-analyzer": "^6.1.0",
-    "@semantic-release/git": "^7.0.8",
-    "@semantic-release/npm": "^5.1.4",
-    "@semantic-release/release-notes-generator": "^7.1.4",
     "eslint": "^5.16.0",
     "husky": "^2.4.1",
     "prettier": "^1.16.4",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.3",
+    "semantic-release-config-xerox": "^1.0.1"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.10.2",
@@ -76,13 +56,9 @@
   },
   "peerDependencies": {
     "eslint": "^5.16.0",
-    "prettier": ">=1",
-    "typescript": "^3.5.1"
+    "prettier": ">=1"
   },
-  "resolutions": {
-    "tar": "^4.4.2",
-    "marked": "^0.6.2",
-    "handlebars": ">=4.1.2",
-    "js-yaml": ">=3.13.1"
+  "optionalDependencies": {
+    "typescript": "^3.5.1"
   }
 }
