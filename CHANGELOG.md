@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.4.3...v1.5.0) (2019-07-11)
+
+
+### Features
+
+* **typescript:** object as X inline for tests ([7f70786](https://github.com/xeroxinteractive/eslint-config/commit/7f70786))
+
 ## [1.4.3](https://github.com/xeroxinteractive/eslint-config-xerox/compare/v1.4.2...v1.4.3) (2019-06-19)
 
 ## [1.4.2](https://github.com/xeroxinteractive/eslint-config-xerox/compare/v1.4.1...v1.4.2) (2019-06-17)
