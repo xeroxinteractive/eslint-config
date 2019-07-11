@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.5.1...v1.6.0) (2019-07-11)
+
+
+### Features
+
+* move to xerox prettier-config ([ba9403c](https://github.com/xeroxinteractive/eslint-config/commit/ba9403c))
+
 ## [1.5.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.5.0...v1.5.1) (2019-07-11)
 
 
