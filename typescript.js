@@ -30,7 +30,12 @@ module.exports = {
     ],
     'jsdoc/check-examples': 'warn',
     'jsdoc/check-param-names': 'error',
-    'jsdoc/check-tag-names': 'error',
+    'jsdoc/check-tag-names': [
+      'error',
+      {
+        definedTags: ['remarks']
+      }
+    ],
     'jsdoc/check-types': 'warn',
     'jsdoc/newline-after-description': 'error',
     'jsdoc/no-undefined-types': 'off',
@@ -81,12 +86,5 @@ module.exports = {
         ]
       }
     }
-  ],
-  settings: {
-    jsdoc: {
-      additionalTagNames: {
-        customTags: ['remarks']
-      }
-    }
-  }
+  ]
 };
