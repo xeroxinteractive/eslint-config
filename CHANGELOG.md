@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.5.0...v1.5.1) (2019-07-11)
+
+
+### Bug Fixes
+
+* make scoped package public ([f00b461](https://github.com/xeroxinteractive/eslint-config/commit/f00b461))
+
 # [1.5.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.4.3...v1.5.0) (2019-07-11)
 
 
