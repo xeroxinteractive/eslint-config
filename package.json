@@ -35,6 +35,9 @@
   "release": {
     "extends": "semantic-release-config-xerox/npm"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
