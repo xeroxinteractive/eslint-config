@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.6.1...v1.7.0) (2019-07-17)
+
+
+### Features
+
+* no no-object-literal-type-assertion for test ([439fa0e](https://github.com/xeroxinteractive/eslint-config/commit/439fa0e))
+
 ## [1.6.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.6.0...v1.6.1) (2019-07-11)
 
 
