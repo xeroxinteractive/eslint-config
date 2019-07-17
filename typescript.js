@@ -78,12 +78,7 @@ module.exports = {
         'jsdoc/require-jsdoc': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/no-object-literal-type-assertion': [
-          'error',
-          {
-            allowAsParameter: true
-          }
-        ]
+        '@typescript-eslint/no-object-literal-type-assertion': 'off'
       }
     }
   ]
