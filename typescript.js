@@ -2,39 +2,39 @@ module.exports = {
   plugins: ['@typescript-eslint', 'jsdoc'],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint'
+    'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.json'
+    project: './tsconfig.json',
   },
   rules: {
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-use-before-define': [
       'warn',
       {
-        functions: false
-      }
+        functions: false,
+      },
     ],
     '@typescript-eslint/no-empty-interface': [
       'error',
       {
-        allowSingleExtends: true
-      }
+        allowSingleExtends: true,
+      },
     ],
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
-        ignoreRestSiblings: true
-      }
+        ignoreRestSiblings: true,
+      },
     ],
     'jsdoc/check-examples': 'warn',
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-tag-names': [
       'error',
       {
-        definedTags: ['remarks']
-      }
+        definedTags: ['remarks'],
+      },
     ],
     'jsdoc/check-types': 'warn',
     'jsdoc/newline-after-description': 'error',
@@ -60,17 +60,17 @@ module.exports = {
           MethodDefinition: true,
           ClassDeclaration: true,
           ArrowFunctionExpression: false,
-          FunctionExpression: false
-        }
-      }
-    ]
+          FunctionExpression: false,
+        },
+      },
+    ],
   },
   overrides: [
     {
       files: ['*.js'],
       rules: {
-        'jsdoc/require-jsdoc': 'off'
-      }
+        'jsdoc/require-jsdoc': 'off',
+      },
     },
     {
       files: ['*.test.{tsx,ts}', '**/__mocks__/**/*.{tsx,ts}'],
@@ -78,8 +78,8 @@ module.exports = {
         'jsdoc/require-jsdoc': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/no-object-literal-type-assertion': 'off'
-      }
-    }
-  ]
+        '@typescript-eslint/no-object-literal-type-assertion': 'off',
+      },
+    },
+  ],
 };
