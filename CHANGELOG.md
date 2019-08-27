@@ -1,3 +1,5 @@
+## [1.7.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.7.0...v1.7.1) (2019-08-27)
+
 # [1.7.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.6.1...v1.7.0) (2019-07-17)
 
 
