@@ -41,7 +41,7 @@
     "husky": "^3.0.0",
     "prettier": "^1.16.4",
     "semantic-release": "^15.13.3",
-    "semantic-release-config-xerox": "^1.0.1"
+    "@xerox/semantic-release-config": "^1.4.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.10.2",
