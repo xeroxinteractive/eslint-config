@@ -33,7 +33,7 @@ module.exports = {
     'jsdoc/check-tag-names': [
       'error',
       {
-        definedTags: ['remarks'],
+        definedTags: ['remarks', 'jest-environment'],
       },
     ],
     'jsdoc/check-types': 'warn',
