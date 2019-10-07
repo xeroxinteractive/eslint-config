@@ -28,7 +28,7 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    'jsdoc/check-examples': 'warn',
+    'jsdoc/check-examples': 'off',
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-tag-names': [
       'error',
@@ -70,6 +70,7 @@ module.exports = {
       files: ['*.js'],
       rules: {
         'jsdoc/require-jsdoc': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'off',
       },
     },
     {
