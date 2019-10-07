@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.8.2...v1.9.0) (2019-10-07)
+
+
+### Features
+
+* **js:** better const/let destructuring ([71ccb9e](https://github.com/xeroxinteractive/eslint-config/commit/71ccb9e))
+
 ## [1.8.2](https://github.com/xeroxinteractive/eslint-config/compare/v1.8.1...v1.8.2) (2019-10-07)
 
 ## [1.8.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.8.0...v1.8.1) (2019-09-19)
