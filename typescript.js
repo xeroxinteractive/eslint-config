@@ -7,6 +7,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
+    extraFileExtensions: ['<text>'],
   },
   rules: {
     '@typescript-eslint/camelcase': 'off',
