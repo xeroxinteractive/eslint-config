@@ -13,8 +13,14 @@ module.exports = {
   },
 
   rules: {
-    'linebreak-style': [2, 'unix'],
-    'arrow-parens': [2, 'always'],
+    'linebreak-style': ['error', 'unix'],
+    'arrow-parens': ['error', 'always'],
     'prettier/prettier': 'error',
+    'prefer-const': [
+      'error',
+      {
+        destructuring: 'all',
+      },
+    ],
   },
 };
