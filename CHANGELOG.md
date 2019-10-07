@@ -1,3 +1,11 @@
+## [1.9.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.9.0...v1.9.1) (2019-10-07)
+
+
+### Bug Fixes
+
+* **typescript:** check jsdoc examples with TS ([e3d15fd](https://github.com/xeroxinteractive/eslint-config/commit/e3d15fd))
+* **typescript:** parser 2.0 fixes ([61858c9](https://github.com/xeroxinteractive/eslint-config/commit/61858c9))
+
 # [1.9.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.8.2...v1.9.0) (2019-10-07)
 
 
