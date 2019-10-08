@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint .",
     "format": "eslint . --fix",
-    "deploy": "semantic-release"
+    "deploy": "semantic-release",
+    "test": "jest"
   },
   "commitlint": {
     "extends": [
@@ -40,8 +41,10 @@
     "@xerox/semantic-release-config": "^1.4.0",
     "eslint": "^5.16.0",
     "husky": "^3.0.0",
+    "jest": "^24.9.0",
     "prettier": "^1.16.4",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.3",
+    "typescript": "^3.6.3"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
