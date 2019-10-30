@@ -8,6 +8,11 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
+  settings: {
+    jsdoc: {
+      mode: 'typescript',
+    },
+  },
   rules: {
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-use-before-define': [
