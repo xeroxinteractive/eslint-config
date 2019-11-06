@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.10.0...v1.10.1) (2019-11-06)
+
+
+### Bug Fixes
+
+* peer dependency versions ([e60bd1b](https://github.com/xeroxinteractive/eslint-config/commit/e60bd1b))
+
 # [1.10.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.9.1...v1.10.0) (2019-11-06)
 
 
