@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/xeroxinteractive/eslint-config/compare/v1.9.1...v1.10.0) (2019-11-06)
+
+
+### Features
+
+* **typescript:** upgrade to TS 3.7.2 ([b1beddb](https://github.com/xeroxinteractive/eslint-config/commit/b1beddb))
+
 ## [1.9.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.9.0...v1.9.1) (2019-10-07)
 
 
