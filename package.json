@@ -44,11 +44,11 @@
     "jest": "^24.9.0",
     "prettier": "^1.16.4",
     "semantic-release": "^15.13.3",
-    "typescript": "^3.6.3"
+    "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.2",
-    "@typescript-eslint/parser": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-jest": "^23.0.0",
@@ -57,9 +57,8 @@
     "eslint-plugin-react": "^7.12.4"
   },
   "peerDependencies": {
-    "eslint": "^6.5.1",
-    "prettier": ">=1",
-    "typescript": "*"
+    "eslint": "~6.0.0",
+    "prettier": "~1.0.0"
   },
   "resolutions": {
     "handlebars": ">=4.3.0",
