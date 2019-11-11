@@ -57,7 +57,7 @@
     "eslint-plugin-react": "^7.12.4"
   },
   "peerDependencies": {
-    "eslint": "~6",
+    "eslint": "~5",
     "prettier": "~1"
   },
   "resolutions": {
