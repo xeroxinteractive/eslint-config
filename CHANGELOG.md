@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/xeroxinteractive/eslint-config/compare/v1.10.1...v1.10.2) (2019-11-11)
+
+
+### Bug Fixes
+
+* require eslint 5 due to vscode compatibility ([b8ec64d](https://github.com/xeroxinteractive/eslint-config/commit/b8ec64d))
+
 ## [1.10.1](https://github.com/xeroxinteractive/eslint-config/compare/v1.10.0...v1.10.1) (2019-11-06)
 
 
