@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/xeroxinteractive/eslint-config/compare/v1.10.2...v1.10.3) (2019-11-18)
+
+
+### Bug Fixes
+
+* **typescript:** optional chaining bug ([a2540f2](https://github.com/xeroxinteractive/eslint-config/commit/a2540f2))
+
 ## [1.10.2](https://github.com/xeroxinteractive/eslint-config/compare/v1.10.1...v1.10.2) (2019-11-11)
 
 
