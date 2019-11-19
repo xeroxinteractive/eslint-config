@@ -1,4 +1,4 @@
-# @xerox/eslint-config
+# ~~@xerox/eslint-config~~ __Archived__: Moved to monorepo [xeroxinteractive/config](https://github.com/xeroxinteractive/config)
 
 > ESLint shareable configuration for Xerox projects.
 
